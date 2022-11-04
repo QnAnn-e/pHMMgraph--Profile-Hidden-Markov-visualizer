@@ -53,6 +53,11 @@ Then the diagrams should hopefully speak for themselves as the purpose of this p
 But shortly, the red arrows shows the path that most likely produced the query sequence given the pHMM.
 And the thickness of the lines shows the transition probabilities and how likely it is to be at a specific state at a given time. 
 
+Disclaimers: 
+* The CSV file to which you write the tables out cannot be open while running the program otherwise it will give an error. 
+* If you do not specify a new output file for a new run, it will overwrite the csv from the previous run as it writes to the same file. 
+* The diagram will get unreadably small if the sequence length of the sequences in the MSA is longer than 100. 
+
 ## About the Creator
 Name: Anika du Plessis 
 
