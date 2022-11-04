@@ -1,4 +1,4 @@
-# pHMMdi: Profile Hidden Markov Model visualizer
+# pHMMdi: Profile Hidden Markov Model diagrams
 
 ## About the Tool
 pHMMdi takes a Multiple Sequence Alignment (MSA) as input in the form of a fasta file and produces a visually informative diagram 
