@@ -1,7 +1,7 @@
-# pHMMdi: Profile Hidden Markov Model diagrams
+# pHMMgraph: Profile Hidden Markov Model graphs
 
 ## About the Tool
-pHMMdi takes a Multiple Sequence Alignment (MSA) as input in the form of a fasta file and produces a visually informative diagram 
+pHMMgraph takes a Multiple Sequence Alignment (MSA) as input in the form of a fasta file and produces a visually informative diagram 
 that shows the most probable alignment of a sequence to a model as well as the weighted transition probabilities. 
 
 ## How to use this tool
@@ -15,13 +15,13 @@ that shows the most probable alignment of a sequence to a model as well as the w
 
 ## Positional and Optional Arguments
 ```
-pHMMdi is a profile Hidden Markov Modeller that provides the user with a diagramatic representation of 
+pHMMgraph is a profile Hidden Markov Modeller that provides the user with a diagramatic representation of 
 the results generated from the Forward and Viterbi algorithms
 
 positional arguments:
   path                  the path to program file
   Fasta_file            Make sure the file is in the correct format otherwise it really wont work...
-  datatype              Either P or N
+  datatype              Either P or N (protein or nucleotide)
   Query_sequence        Make sure the length of this sequence matches the sequence length in the fasta files
 
 options:
