@@ -5,13 +5,13 @@ pHMMgraph takes a Multiple Sequence Alignment (MSA) as input in the form of a fa
 that shows the most probable alignment of a sequence to a model as well as the weighted transition probabilities. 
 
 ## How to use this tool
-* Download the pHMMdi.py file from the github repository
+* Download the pHMMgraph.py file from the github repository
 * Obtain a MSA using a tool like muscle
 * Prepare a query sequence (of the same length than the sequences in the MSA
 * Open the terminal (or CMD)
 * Go to the directory where the downloaded program file was stored
-* Run the program using the command `python3 pHMMdi.py` followed by the _positional arguments_
-* For help use `python3 pHMMdi.py -h` or `python3 pHMMdi.py --help`
+* Run the program using the command `python3 pHMMgraph.py` followed by the _positional arguments_
+* For help use `python3 pHMMgraph.py -h` or `python3 pHMMgraph.py --help`
 
 ## Positional and Optional Arguments
 ```
