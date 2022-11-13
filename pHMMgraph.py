@@ -9,9 +9,9 @@ import matplotlib.pyplot as plt
 import csv
 
 # Hier is waar ek dit n command line tool maak :)
-"""
-parser = argparse.ArgumentParser(prog='pHMMdi', usage='%(prog)s [options] path',
-                                 description='pHMMdi is a profile Hidden Markov Modeller that provides the user with '
+
+parser = argparse.ArgumentParser(prog='pHMMgraph', usage='%(prog)s [options] path',
+                                 description='pHMMgraph is a profile Hidden Markov Modeller that provides the user with '
                                              'a diagramatic representation of the results generated from the Forward '
                                              'and Viterbi algorithms',
                                  epilog='If we knew what it was we were doing,it would not be called research, would it? - Albert Einstein')
@@ -63,13 +63,7 @@ if user_specified_settings['format'] != None:
     format = user_specified_settings['format']
 else:
     format = 'svg'
-"""
-fasta_file = 'C:/Users/anika/Documents/Bioinformatics Modules and Assignments/HMM_projek/nmsa2.fasta'
-sample_type = 'N'
-query_sequence = '-A-ATGA'
-pseudo = 'N'
-thres = 50
-file_name = 'pHMM_tables.csv'
+    
 
 class ReadAlignment:
 
