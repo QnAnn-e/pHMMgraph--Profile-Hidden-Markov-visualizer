@@ -1240,7 +1240,7 @@ class Model:
         plt.yticks(self.y)
         if len(match) < 5:
             plt.xlim(0, 25)
-            plt.ylim(1, 15)
+            plt.ylim(1, 12)
         elif len(match) < 10:
             plt.xlim(0, 30)
             plt.ylim(1, 15)
