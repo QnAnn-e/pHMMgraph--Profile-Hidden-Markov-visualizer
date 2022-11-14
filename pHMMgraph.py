@@ -1320,4 +1320,4 @@ if __name__=='__main__':
             f.write("\n")
             (list_dfs[i]).to_csv(f)
             f.write("\n")
-    print("Check the output directory for your tables")
+    print("Check the project directory for your tables")
