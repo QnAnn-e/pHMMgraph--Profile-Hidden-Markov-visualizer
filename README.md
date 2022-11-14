@@ -6,6 +6,8 @@ that shows the most probable alignment of a sequence to a model as well as the w
 
 ## How to use this tool
 * Download the pHMMgraph.py file from the github repository
+* Install the dependancies using the requirements.txt file
+* Run the command below within the project directory: `pip install -r requirements.txt`
 * Obtain a MSA using a tool like muscle
 * Prepare a query sequence (of the same length than the sequences in the MSA
 * Open the terminal (or CMD)
